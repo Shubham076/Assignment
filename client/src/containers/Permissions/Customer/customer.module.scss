@@ -1,0 +1,23 @@
+.customer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1rem;
+    margin:1rem;
+    box-shadow: 2px 4px 6px rgba(#ccc, 0.8);
+    cursor: pointer;
+}
+
+.username{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+
+.email{
+    font-size: 1.4rem;
+    color:rgba(143, 136, 136, 0.767);
+}

@@ -1,0 +1,29 @@
+.permission{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(min-content , 10rem));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    margin :5rem auto;
+    width: 120rem;
+}
+
+.btn{
+    font-size: 1.4rem ;
+    padding : 1rem 1.6rem;
+    margin: 1rem;
+    font-weight: bold;
+    color:#fff;
+    border-radius: 8px;
+    border:none;
+    outline:none;
+    letter-spacing: 0.8px;
+    text-align: center;
+    box-shadow: 3px 3px 8px rgba(#000 , 0.5);
+    background-color: #007E33;
+
+}
+
+.label{
+    font-weight: bold;
+    margin-right: 1rem;
+}
